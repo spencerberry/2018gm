@@ -1,10 +1,8 @@
-//
 //  AppDelegate.swift
 //  buhks
 //
 //  Created by Spencer Berry on 10/1/18.
 //  Copyright © 2018 a8c. All rights reserved.
-//
 
 import UIKit
 
@@ -16,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        print("YO!")
         return true
     }
 

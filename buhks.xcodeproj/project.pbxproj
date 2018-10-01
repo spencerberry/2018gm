@@ -13,6 +13,7 @@
 		D725BBD02162BB9800AB4B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D725BBCF2162BB9800AB4B26 /* Assets.xcassets */; };
 		D725BBD32162BB9800AB4B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D725BBD12162BB9800AB4B26 /* LaunchScreen.storyboard */; };
 		D725BBDE2162BB9800AB4B26 /* buhksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D725BBDD2162BB9800AB4B26 /* buhksTests.swift */; };
+		D725BBE92162D76700AB4B26 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D725BBE82162D76700AB4B26 /* BookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D725BBD92162BB9800AB4B26 /* buhksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buhksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D725BBDD2162BB9800AB4B26 /* buhksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buhksTests.swift; sourceTree = "<group>"; };
 		D725BBDF2162BB9800AB4B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D725BBE82162D76700AB4B26 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				D725BBC82162BB9400AB4B26 /* AppDelegate.swift */,
 				D725BBCA2162BB9400AB4B26 /* ViewController.swift */,
+				D725BBE82162D76700AB4B26 /* BookViewController.swift */,
 				D725BBCC2162BB9400AB4B26 /* Main.storyboard */,
 				D725BBCF2162BB9800AB4B26 /* Assets.xcassets */,
 				D725BBD12162BB9800AB4B26 /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D725BBE92162D76700AB4B26 /* BookViewController.swift in Sources */,
 				D725BBCB2162BB9400AB4B26 /* ViewController.swift in Sources */,
 				D725BBC92162BB9400AB4B26 /* AppDelegate.swift in Sources */,
 			);
@@ -361,7 +365,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8P584XF9D;
 				INFOPLIST_FILE = buhks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,7 +384,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8P584XF9D;
 				INFOPLIST_FILE = buhks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
